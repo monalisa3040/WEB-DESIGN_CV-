@@ -32,32 +32,18 @@
     font-family:  cursive;
     text-align: center;
     font-size: 30px;
-    padding-bottom: 0;
+    padding: 10px;
 }
 
 hr{
-    margin-top: 200px;
+    margin-top: 50px;
     width: 80%;
     color: #ced7df;
 }
 
 .left-div{
     padding: 30px;
-    padding-left: 46px;
-    padding-right: 10px;
-    /* width: 446.183px; */
-    /* border-right: 2px solid #ced7df; */
-    margin-right: 37px;
 }
-
-.right-div{
-    /* float: right; */
-    /* position: fixed; */
-    /* padding: 30px; */
-    padding-right: 20px;
-    width: 302.417;
-}
-
 
 .section{
     padding-top: 0px;
@@ -77,4 +63,25 @@ hr{
     flex-direction: row;
     flex-wrap: wrap;
     padding-top: 5px;
+}
+
+
+.contact-me{
+    justify-content: center;
+    justify-content: space-evenly;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#contact-section{
+    padding-top: 180px;
+    margin: auto;
+    justify-content: center;
+}
+
+.address{
+    display: flex;
+    justify-content: center;
+    margin: auto;
 }
